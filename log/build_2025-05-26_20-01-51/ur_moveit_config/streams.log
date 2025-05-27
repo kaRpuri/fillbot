@@ -1,0 +1,73 @@
+[0.014s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_moveit_config
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.289s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.292s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.709s] -- Configuring done
+[0.712s] -- Generating done
+[0.713s] -- Build files have been written to: /home/kabirpuri/fuelbot_ws/build/ur_moveit_config
+[0.721s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_moveit_config
+[0.721s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_moveit_config -- -j16 -l16
+[0.778s] Built target ament_cmake_python_symlink_ur_moveit_config
+[0.930s] running egg_info
+[0.931s] creating ur_moveit_config.egg-info
+[0.931s] writing ur_moveit_config.egg-info/PKG-INFO
+[0.931s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[0.931s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[0.931s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.933s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.934s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.973s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[0.985s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_moveit_config -- -j16 -l16
+[0.995s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_moveit_config
+[1.002s] -- Install configuration: ""
+[1.002s] -- Execute custom install script
+[1.002s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.011s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[1.019s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.027s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.037s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.047s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.055s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.064s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.072s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.081s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.089s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.098s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.0-py3.10.egg-info/PKG-INFO
+[1.106s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.0-py3.10.egg-info/SOURCES.txt
+[1.114s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.0-py3.10.egg-info/dependency_links.txt
+[1.123s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.0-py3.10.egg-info/top_level.txt
+[1.132s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.143s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.152s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.160s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.169s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.178s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.186s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.194s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.201s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.208s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.217s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.225s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.236s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.244s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.254s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.261s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.268s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.276s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.310s] Listing '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.310s] Compiling '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.310s] Compiling '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.334s] Compiling '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.345s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_moveit_config

@@ -1,0 +1,5 @@
+/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript

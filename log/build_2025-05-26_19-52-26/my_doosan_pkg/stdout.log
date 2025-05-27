@@ -1,0 +1,90 @@
+running egg_info
+creating ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info
+writing ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt
+writing manifest file '../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build
+creating /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib
+creating /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+copying my_doosan_pkg/joint_points_act_service.py -> /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+copying my_doosan_pkg/joint_points_topic.py -> /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+copying my_doosan_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg
+running install
+running install_lib
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg/joint_points_act_service.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg/joint_points_topic.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/build/lib/my_doosan_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/joint_points_act_service.py to joint_points_act_service.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/joint_points_topic.py to joint_points_topic.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/ament_index
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/ament_index/resource_index
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/ament_index/resource_index/packages
+copying resource/my_doosan_pkg -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+copying launch/my_doosan_controller.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+copying launch/my_doosan_gazebo_controller.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+copying launch/my_doosan_rviz.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+copying launch/my_doosan_gazebo.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/launch
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+copying rviz/view_config.rviz -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/config
+copying config/simple_controller.yaml -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/config
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+copying worlds/my_empty_world.world -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+copying description/urdf/m1013.white.urdf -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+copying description/urdf/a0912.blue.urdf -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.m1013.white.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.a0912.blue.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/m1013.urdf.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.transmission.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/a0912.urdf.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.bumper_config.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.internal_config.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+copying description/xacro/macro.gazebo_config_control.xacro -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_6_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_3_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_2_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_3_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_0_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_5_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_2_2.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_2_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_5_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_1_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_1_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_1_2.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_4_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+copying description/meshes/a0912_blue/A0912_4_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+creating /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_6_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_3_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_0_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_4_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_4_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_2_2.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_5_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_1_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_2_0.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+copying description/meshes/m1013_white/MF1013_2_1.dae -> /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+running install_egg_info
+Copying ../../../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_points_act_server script to /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/my_doosan_pkg
+Installing trajectory_points_topic script to /home/kabirpuri/fuelbot_ws/install/my_doosan_pkg/lib/my_doosan_pkg
+writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_doosan_pkg/install.log'

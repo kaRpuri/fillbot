@@ -1,0 +1,631 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cef50ecb910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cef50ecb340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cef50ecb340>>, mixin_verb=('build',))
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kabirpuri/fuelbot_ws'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fuel_station_models) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_nodes) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_urdf) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kabirpuri/fuelbot_ws/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/humble
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_controllers', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_bringup', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': True, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur_calibration', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': True, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kabirpuri/fuelbot_ws/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kabirpuri/fuelbot_ws/install/ur', 'merge_install': False, 'path': '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': True, 'test_result_base': None}
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_moveit_config
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_moveit_config
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_moveit_config -- -j16 -l16
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_moveit_config -- -j16 -l16
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_moveit_config
+[1.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_moveit_config
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config' for CMake module files
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config' for CMake config files
+[1.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/bin'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/bin'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[1.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[1.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config' for CMake module files
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config' for CMake config files
+[1.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/bin'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/bin'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[1.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[1.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs -- -j16 -l16
+[7.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs -- -j16 -l16
+[7.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs
+[9.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[9.927s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs' for CMake module files
+[9.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_dashboard_msgs
+[9.928s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs' for CMake config files
+[9.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[9.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[9.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[9.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[9.936s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib'
+[9.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[9.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[9.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[9.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[9.938s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/bin'
+[9.938s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[9.939s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[9.939s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/bin'
+[9.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[9.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[9.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[9.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[9.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[9.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[9.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[9.944s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs' for CMake module files
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs' for CMake config files
+[9.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[9.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[9.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[9.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[9.952s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib'
+[9.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[9.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[9.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[9.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/bin'
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[9.955s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/bin'
+[9.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[9.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[9.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[9.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[9.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[9.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[9.959s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[9.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[9.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_controllers
+[11.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_controllers
+[11.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_controllers -- -j16 -l16
+[25.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_controllers -- -j16 -l16
+[25.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_controllers
+[26.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[26.100s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers' for CMake module files
+[26.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_controllers
+[26.101s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers' for CMake config files
+[26.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[26.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[26.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[26.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[26.105s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib'
+[26.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[26.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[26.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[26.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[26.107s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/bin'
+[26.107s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[26.107s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib/python3.10/site-packages'
+[26.108s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/bin'
+[26.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.ps1'
+[26.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.dsv'
+[26.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.sh'
+[26.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.bash'
+[26.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.zsh'
+[26.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[26.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[26.112s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers' for CMake module files
+[26.113s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers' for CMake config files
+[26.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[26.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[26.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[26.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[26.116s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib'
+[26.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[26.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[26.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[26.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[26.118s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/bin'
+[26.118s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[26.118s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib/python3.10/site-packages'
+[26.119s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_controllers/bin'
+[26.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.ps1'
+[26.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.dsv'
+[26.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.sh'
+[26.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.bash'
+[26.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.zsh'
+[26.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[26.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[26.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[26.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[26.131s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[26.131s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver
+[26.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_bringup
+[26.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_bringup
+[26.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_bringup -- -j16 -l16
+[26.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_bringup -- -j16 -l16
+[26.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_bringup
+[27.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[27.019s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup' for CMake module files
+[27.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_bringup
+[27.020s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup' for CMake config files
+[27.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[27.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[27.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[27.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[27.021s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib'
+[27.021s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/bin'
+[27.021s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[27.021s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib/python3.10/site-packages'
+[27.022s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/bin'
+[27.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.ps1'
+[27.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.dsv'
+[27.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.sh'
+[27.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.bash'
+[27.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.zsh'
+[27.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[27.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[27.023s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup' for CMake module files
+[27.023s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup' for CMake config files
+[27.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[27.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[27.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[27.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[27.025s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib'
+[27.025s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/bin'
+[27.025s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[27.025s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/lib/python3.10/site-packages'
+[27.025s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_bringup/bin'
+[27.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.ps1'
+[27.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.dsv'
+[27.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.sh'
+[27.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.bash'
+[27.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/ur_bringup/package.zsh'
+[27.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[27.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver
+[27.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_robot_driver -- -j16 -l16
+[56.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_robot_driver -- -j16 -l16
+[56.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_robot_driver
+[56.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[56.750s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver' for CMake module files
+[56.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_robot_driver
+[56.752s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver' for CMake config files
+[56.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[56.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[56.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[56.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[56.756s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib'
+[56.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[56.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[56.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[56.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[56.758s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin'
+[56.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[56.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[56.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[56.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[56.760s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[56.760s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[56.761s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin'
+[56.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[56.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[56.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[56.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[56.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[56.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[56.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[56.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[56.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[56.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[56.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[56.768s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver' for CMake module files
+[56.769s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver' for CMake config files
+[56.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[56.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[56.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[56.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[56.773s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib'
+[56.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[56.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[56.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[56.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[56.775s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin'
+[56.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[56.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[56.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[56.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[56.777s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[56.777s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[56.777s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin'
+[56.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[56.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[56.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[56.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[56.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[56.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[56.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[56.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[56.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[56.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[56.784s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[56.784s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[56.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[56.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_calibration
+[58.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_calibration
+[58.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_calibration -- -j16 -l16
+[71.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_calibration -- -j16 -l16
+[71.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_calibration
+[71.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[71.306s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration' for CMake module files
+[71.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_calibration
+[71.307s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration' for CMake config files
+[71.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[71.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[71.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[71.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[71.310s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib'
+[71.310s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/bin'
+[71.310s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[71.311s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib/python3.10/site-packages'
+[71.311s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/bin'
+[71.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.ps1'
+[71.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.dsv'
+[71.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.sh'
+[71.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.bash'
+[71.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.zsh'
+[71.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[71.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[71.315s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration' for CMake module files
+[71.316s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration' for CMake config files
+[71.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[71.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[71.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[71.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[71.319s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib'
+[71.319s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/bin'
+[71.319s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[71.320s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/lib/python3.10/site-packages'
+[71.320s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur_calibration/bin'
+[71.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.ps1'
+[71.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.dsv'
+[71.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.sh'
+[71.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.bash'
+[71.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.zsh'
+[71.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[71.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[71.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur'
+[71.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[71.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[71.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur
+[71.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur
+[71.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur -- -j16 -l16
+[71.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur -- -j16 -l16
+[71.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur
+[72.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[72.004s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur' for CMake module files
+[72.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur
+[72.005s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur' for CMake config files
+[72.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[72.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[72.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[72.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[72.008s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/bin'
+[72.008s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/lib/pkgconfig/ur.pc'
+[72.009s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/lib/python3.10/site-packages'
+[72.009s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/bin'
+[72.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.ps1'
+[72.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.dsv'
+[72.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.sh'
+[72.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.bash'
+[72.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.zsh'
+[72.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur/share/colcon-core/packages/ur)
+[72.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[72.013s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur' for CMake module files
+[72.014s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur' for CMake config files
+[72.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[72.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[72.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[72.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[72.017s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/bin'
+[72.017s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/lib/pkgconfig/ur.pc'
+[72.017s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/lib/python3.10/site-packages'
+[72.017s] Level 1:colcon.colcon_core.environment:checking '/home/kabirpuri/fuelbot_ws/install/ur/bin'
+[72.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.ps1'
+[72.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.dsv'
+[72.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.sh'
+[72.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.bash'
+[72.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/kabirpuri/fuelbot_ws/install/ur/share/ur/package.zsh'
+[72.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kabirpuri/fuelbot_ws/install/ur/share/colcon-core/packages/ur)
+[72.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[72.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[72.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[72.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[72.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[72.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[72.031s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[72.043s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[72.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kabirpuri/fuelbot_ws/install/local_setup.ps1'
+[72.043s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kabirpuri/fuelbot_ws/install/_local_setup_util_ps1.py'
+[72.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kabirpuri/fuelbot_ws/install/setup.ps1'
+[72.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kabirpuri/fuelbot_ws/install/local_setup.sh'
+[72.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kabirpuri/fuelbot_ws/install/_local_setup_util_sh.py'
+[72.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kabirpuri/fuelbot_ws/install/setup.sh'
+[72.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kabirpuri/fuelbot_ws/install/local_setup.bash'
+[72.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kabirpuri/fuelbot_ws/install/setup.bash'
+[72.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kabirpuri/fuelbot_ws/install/local_setup.zsh'
+[72.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kabirpuri/fuelbot_ws/install/setup.zsh'

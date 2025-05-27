@@ -1,0 +1,3 @@
+[console_scripts]
+move_to_pose = my_moveit_controller.scripts.moveit_control:main
+

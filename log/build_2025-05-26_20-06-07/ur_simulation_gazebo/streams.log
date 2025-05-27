@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.482s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.513s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.515s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.541s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.541s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.541s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.559s] -- Found PythonExtra: .so  
+[0.561s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.615s] -- Configuring done
+[0.617s] -- Generating done
+[0.618s] -- Build files have been written to: /home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo
+[0.626s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo
+[0.628s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo -- -j16 -l16
+[0.671s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo -- -j16 -l16
+[0.673s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo
+[0.682s] -- Install configuration: ""
+[0.683s] -- Execute custom install script
+[0.683s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.693s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.700s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.708s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.715s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.723s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.730s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.737s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.744s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.751s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.758s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.765s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.772s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.782s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.790s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.800s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[0.808s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[0.815s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[0.826s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_simulation_gazebo

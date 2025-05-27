@@ -1,0 +1,19 @@
+[0.414s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/my_moveit_controller': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_moveit_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build --no-deps symlink_data --force
+[0.577s] running develop
+[0.668s] running egg_info
+[0.668s] writing my_moveit_controller.egg-info/PKG-INFO
+[0.668s] writing dependency_links to my_moveit_controller.egg-info/dependency_links.txt
+[0.669s] writing entry points to my_moveit_controller.egg-info/entry_points.txt
+[0.669s] writing requirements to my_moveit_controller.egg-info/requires.txt
+[0.669s] writing top-level names to my_moveit_controller.egg-info/top_level.txt
+[0.670s] reading manifest file 'my_moveit_controller.egg-info/SOURCES.txt'
+[0.670s] writing manifest file 'my_moveit_controller.egg-info/SOURCES.txt'
+[0.671s] running build_ext
+[0.671s] Creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my-moveit-controller.egg-link (link to .)
+[0.671s] Installing move_to_pose script to /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/my_moveit_controller
+[0.672s] 
+[0.672s] Installed /home/kabirpuri/fuelbot_ws/build/my_moveit_controller
+[0.672s] running symlink_data
+[0.672s] symbolically linking /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/resource/my_moveit_controller -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index/resource_index/packages
+[0.672s] symbolically linking /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/package.xml -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/my_moveit_controller
+[0.696s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/my_moveit_controller' returned '0': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_moveit_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build --no-deps symlink_data --force

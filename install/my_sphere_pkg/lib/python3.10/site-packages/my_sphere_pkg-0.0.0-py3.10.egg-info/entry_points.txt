@@ -1,0 +1,4 @@
+[console_scripts]
+my_client_node = my_sphere_pkg.client_node:main
+reader_mark_node = my_sphere_pkg.coordinate_node:main
+

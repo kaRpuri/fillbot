@@ -1,0 +1,150 @@
+[0.022s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver
+[0.032s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.148s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.179s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.339s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.347s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.362s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.370s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.430s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.436s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.437s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.438s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.471s] -- Found ur_dashboard_msgs: 2.8.0 (/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.481s] -- Found ur_msgs: 2.2.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.676s] -- Found ur_controllers: 2.8.0 (/home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake)
+[0.739s] -- Found ur_description: 2.5.0 (/opt/ros/humble/share/ur_description/cmake)
+[0.739s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.740s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.759s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.759s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.759s] -- Configuring done
+[0.873s] -- Generating done
+[0.888s] -- Build files have been written to: /home/kabirpuri/fuelbot_ws/build/ur_robot_driver
+[0.905s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver
+[0.908s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_robot_driver -- -j16 -l16
+[0.953s] [35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[0.953s] [35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[0.953s] [35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target robot_state_helper[0m
+[0.971s] [ 25%] Built target urscript_interface
+[0.971s] [ 25%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.972s] [ 35%] Built target ur_ros2_control_node
+[0.972s] [ 35%] Built target controller_stopper_node
+[0.974s] [ 75%] Built target dashboard_client
+[0.974s] [ 75%] Built target robot_state_helper
+[0.981s] [100%] Built target ur_robot_driver_plugin
+[1.149s] running egg_info
+[1.150s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.150s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.150s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.152s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.152s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.176s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[1.188s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_robot_driver -- -j16 -l16
+[1.190s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_robot_driver
+[1.196s] -- Install configuration: "RelWithDebInfo"
+[1.196s] -- Execute custom install script
+[1.196s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[1.197s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[1.198s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.0-py3.10.egg-info/PKG-INFO
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.0-py3.10.egg-info/SOURCES.txt
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.0-py3.10.egg-info/dependency_links.txt
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.0-py3.10.egg-info/top_level.txt
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[1.199s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[1.200s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[1.201s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[1.202s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[1.203s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[1.203s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[1.203s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[1.203s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[1.203s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[1.203s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[1.211s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[1.212s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[1.212s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.212s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.212s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.212s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[1.213s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[1.213s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[1.213s] -- Up-to-date: /home/kabirpuri/fuelbot_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[1.237s] Listing '/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[1.244s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_robot_driver

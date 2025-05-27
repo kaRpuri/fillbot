@@ -1,0 +1,4 @@
+[console_scripts]
+trajectory_points_act_server = my_doosan_pkg.joint_points_act_service:main
+trajectory_points_topic = my_doosan_pkg.joint_points_topic:main
+

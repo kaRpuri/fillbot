@@ -1,0 +1,154 @@
+[0.013s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_controllers
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.114s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.115s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.133s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.259s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.271s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.279s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.292s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.299s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.339s] -- Found joint_trajectory_controller: 2.45.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.373s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.378s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.380s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.382s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.417s] -- Found ur_dashboard_msgs: 2.8.0 (/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.426s] -- Found ur_msgs: 2.2.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.452s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.452s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.466s] -- Found ros2_control_test_assets: 2.50.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[0.467s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.469s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.470s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.541s] -- Configuring done
+[0.615s] -- Generating done
+[0.627s] -- Build files have been written to: /home/kabirpuri/fuelbot_ws/build/ur_controllers
+[0.644s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kabirpuri/fuelbot_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/kabirpuri/fuelbot_ws/install/ur_controllers
+[0.645s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_controllers -- -j16 -l16
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.702s] [ 35%] Built target tool_contact_controller_parameters
+[0.703s] [ 35%] Built target freedrive_mode_controller_parameters
+[0.703s] [ 35%] Built target gpio_controller_parameters
+[0.703s] [ 35%] Built target speed_scaling_state_broadcaster_parameters
+[0.703s] [ 35%] Built target force_mode_controller_parameters
+[0.703s] [ 41%] Built target passthrough_trajectory_controller_parameters
+[0.703s] [ 41%] Built target scaled_joint_trajectory_controller_parameters
+[0.703s] [ 47%] Built target ur_configuration_controller_parameters
+[0.707s] [ 52%] Built target gmock_main
+[0.707s] [ 61%] Built target gmock
+[0.721s] [35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[0.752s] [ 88%] Built target ur_controllers
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target test_load_freedrive_mode_controller[0m
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target test_load_force_mode_controller[0m
+[0.781s] [100%] Built target test_load_freedrive_mode_controller
+[0.781s] [100%] Built target test_load_force_mode_controller
+[0.791s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_controllers -- -j16 -l16
+[0.793s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_controllers
+[0.799s] -- Install configuration: ""
+[0.800s] -- Execute custom install script
+[0.800s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.800s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.800s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.800s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.801s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.802s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.803s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.804s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.805s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/lib/libur_controllers.so
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.806s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.807s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.808s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.808s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.808s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.808s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.808s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.808s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[0.816s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.817s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_controllers/share/ur_controllers/package.xml
+[0.820s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur_simulation_gazebo:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_moveit_controller:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs/lib:/home/kabirpuri/fuelbot_ws/install/ur_robot_driver/lib:/home/kabirpuri/fuelbot_ws/install/ur_controllers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_controllers

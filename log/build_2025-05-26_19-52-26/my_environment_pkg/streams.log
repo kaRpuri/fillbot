@@ -1,0 +1,56 @@
+[0.777s] Invoking command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_environment_pkg': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_environment_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_environment_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/install.log --single-version-externally-managed install_data
+[0.917s] running egg_info
+[0.918s] creating ../../../build/my_environment_pkg/my_environment_pkg.egg-info
+[0.918s] writing ../../../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO
+[0.918s] writing dependency_links to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt
+[0.918s] writing entry points to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt
+[0.918s] writing requirements to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt
+[0.918s] writing top-level names to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt
+[0.922s] writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+[0.923s] reading manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+[0.924s] writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.924s] creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build
+[0.924s] creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib
+[0.924s] creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.924s] copying my_environment_pkg/main_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] copying my_environment_pkg/DDPG_robot_arm.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] copying my_environment_pkg/collection_data.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] copying my_environment_pkg/run_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] copying my_environment_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] copying my_environment_pkg/main_rl_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+[0.925s] running install
+[0.927s] running install_lib
+[0.927s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.927s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.927s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/DDPG_robot_arm.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.928s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/collection_data.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.928s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/run_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.928s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.929s] copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_rl_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+[0.929s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/main_environment.py to main_environment.cpython-310.pyc
+[0.932s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/DDPG_robot_arm.py to DDPG_robot_arm.cpython-310.pyc
+[0.932s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/collection_data.py to collection_data.cpython-310.pyc
+[0.932s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/run_environment.py to run_environment.cpython-310.pyc
+[0.932s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/__init__.py to __init__.cpython-310.pyc
+[0.932s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/main_rl_environment.py to main_rl_environment.cpython-310.pyc
+[0.934s] running install_data
+[0.934s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index
+[0.934s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index
+[0.935s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index/packages
+[0.935s] copying resource/my_environment_pkg -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index/packages
+[0.935s] copying package.xml -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg
+[0.935s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/launch
+[0.935s] copying launch/my_environment.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/launch
+[0.935s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/rviz
+[0.935s] copying rviz/my_rviz_env.rviz -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/rviz
+[0.935s] creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/worlds
+[0.935s] copying worlds/my_world.world -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/worlds
+[0.935s] running install_egg_info
+[0.936s] Copying ../../../build/my_environment_pkg/my_environment_pkg.egg-info to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg-0.0.0-py3.10.egg-info
+[0.937s] running install_scripts
+[0.950s] Installing data_collection script to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/my_environment_pkg
+[0.950s] Installing run_environment script to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/my_environment_pkg
+[0.950s] writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_environment_pkg/install.log'
+[1.034s] Invoked command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_environment_pkg' returned '0': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_environment_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_environment_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,54 @@
+running egg_info
+creating ../../../build/my_environment_pkg/my_environment_pkg.egg-info
+writing ../../../build/my_environment_pkg/my_environment_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/my_environment_pkg/my_environment_pkg.egg-info/top_level.txt
+writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/my_environment_pkg/my_environment_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build
+creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib
+creating /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/main_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/DDPG_robot_arm.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/collection_data.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/run_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+copying my_environment_pkg/main_rl_environment.py -> /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg
+running install
+running install_lib
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/DDPG_robot_arm.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/collection_data.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/run_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+copying /home/kabirpuri/fuelbot_ws/build/my_environment_pkg/build/lib/my_environment_pkg/main_rl_environment.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/main_environment.py to main_environment.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/DDPG_robot_arm.py to DDPG_robot_arm.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/collection_data.py to collection_data.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/run_environment.py to run_environment.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg/main_rl_environment.py to main_rl_environment.cpython-310.pyc
+running install_data
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index/packages
+copying resource/my_environment_pkg -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/launch
+copying launch/my_environment.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/launch
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/rviz
+copying rviz/my_rviz_env.rviz -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/rviz
+creating /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/worlds
+copying worlds/my_world.world -> /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/share/my_environment_pkg/worlds
+running install_egg_info
+Copying ../../../build/my_environment_pkg/my_environment_pkg.egg-info to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/python3.10/site-packages/my_environment_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_collection script to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/my_environment_pkg
+Installing run_environment script to /home/kabirpuri/fuelbot_ws/install/my_environment_pkg/lib/my_environment_pkg
+writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_environment_pkg/install.log'

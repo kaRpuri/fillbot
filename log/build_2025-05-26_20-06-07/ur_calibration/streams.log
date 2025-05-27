@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_calibration -- -j16 -l16
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[0.084s] [ 33%] Built target gmock_main
+[0.084s] [ 41%] Built target gmock
+[0.092s] [ 66%] Built target calibration
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[0.123s] [100%] Built target calibration_correction
+[0.123s] [100%] Built target calibration_test
+[0.135s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kabirpuri/fuelbot_ws/build/ur_calibration -- -j16 -l16
+[0.137s] Invoking command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_calibration
+[0.144s] -- Install configuration: "RelWithDebInfo"
+[0.145s] -- Execute custom install script
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.145s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.146s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.146s] -- Symlinking: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[0.156s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.156s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.156s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.156s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.156s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.157s] -- Up-to-date symlink: /home/kabirpuri/fuelbot_ws/install/ur_calibration/share/ur_calibration/package.xml
+[0.160s] Invoked command in '/home/kabirpuri/fuelbot_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/kabirpuri/fuelbot_ws/install/ur_robot_driver:/home/kabirpuri/fuelbot_ws/install/ur_controllers:/home/kabirpuri/fuelbot_ws/install/ur_dashboard_msgs:/home/kabirpuri/fuelbot_ws/install/ur:/home/kabirpuri/fuelbot_ws/install/ur_calibration:/home/kabirpuri/fuelbot_ws/install/ur_moveit_config:/home/kabirpuri/fuelbot_ws/install/ur_bringup:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg:/home/kabirpuri/fuelbot_ws/install/my_environment_pkg:/home/kabirpuri/fuelbot_ws/install/my_doosan_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kabirpuri/fuelbot_ws/build/ur_calibration

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_moveit_controller.egg-info/PKG-INFO
+writing dependency_links to my_moveit_controller.egg-info/dependency_links.txt
+writing entry points to my_moveit_controller.egg-info/entry_points.txt
+writing requirements to my_moveit_controller.egg-info/requires.txt
+writing top-level names to my_moveit_controller.egg-info/top_level.txt
+reading manifest file 'my_moveit_controller.egg-info/SOURCES.txt'
+writing manifest file 'my_moveit_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my-moveit-controller.egg-link (link to .)
+Installing move_to_pose script to /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/my_moveit_controller
+
+Installed /home/kabirpuri/fuelbot_ws/build/my_moveit_controller
+running symlink_data
+symbolically linking /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/resource/my_moveit_controller -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index/resource_index/packages
+symbolically linking /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/package.xml -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/my_moveit_controller

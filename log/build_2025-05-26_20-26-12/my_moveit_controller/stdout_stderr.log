@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/my_moveit_controller/my_moveit_controller.egg-info
+writing ../../build/my_moveit_controller/my_moveit_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_moveit_controller/my_moveit_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/my_moveit_controller/my_moveit_controller.egg-info/entry_points.txt
+writing requirements to ../../build/my_moveit_controller/my_moveit_controller.egg-info/requires.txt
+writing top-level names to ../../build/my_moveit_controller/my_moveit_controller.egg-info/top_level.txt
+writing manifest file '../../build/my_moveit_controller/my_moveit_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_moveit_controller/my_moveit_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_moveit_controller/my_moveit_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build
+creating /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build/lib
+creating /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build/lib/my_moveit_controller
+copying my_moveit_controller/__init__.py -> /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build/lib/my_moveit_controller
+running install
+running install_lib
+creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my_moveit_controller
+copying /home/kabirpuri/fuelbot_ws/build/my_moveit_controller/build/lib/my_moveit_controller/__init__.py -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my_moveit_controller
+byte-compiling /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my_moveit_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index
+creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index/resource_index
+creating /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index/resource_index/packages
+copying resource/my_moveit_controller -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/share/my_moveit_controller
+running install_egg_info
+Copying ../../build/my_moveit_controller/my_moveit_controller.egg-info to /home/kabirpuri/fuelbot_ws/install/my_moveit_controller/lib/python3.10/site-packages/my_moveit_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_moveit_controller/install.log'

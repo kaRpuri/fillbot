@@ -1,0 +1,22 @@
+[0.760s] Invoking command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_sphere_pkg': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_sphere_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log --single-version-externally-managed install_data
+[0.905s] running egg_info
+[0.906s] writing ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/PKG-INFO
+[0.906s] writing dependency_links to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/entry_points.txt
+[0.906s] writing requirements to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/requires.txt
+[0.906s] writing top-level names to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/top_level.txt
+[0.908s] reading manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'
+[0.908s] writing manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'
+[0.908s] running build
+[0.908s] running build_py
+[0.908s] running install
+[0.909s] running install_lib
+[0.909s] running install_data
+[0.910s] running install_egg_info
+[0.911s] removing '/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.911s] Copying ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg-0.0.0-py3.10.egg-info
+[0.912s] running install_scripts
+[0.930s] Installing my_client_node script to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/my_sphere_pkg
+[0.930s] Installing reader_mark_node script to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/my_sphere_pkg
+[0.930s] writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log'
+[0.978s] Invoked command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_sphere_pkg' returned '0': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_sphere_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log --single-version-externally-managed install_data

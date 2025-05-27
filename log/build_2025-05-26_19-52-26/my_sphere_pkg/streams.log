@@ -1,0 +1,54 @@
+[0.767s] Invoking command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_sphere_pkg': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_sphere_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log --single-version-externally-managed install_data
+[0.913s] running egg_info
+[0.913s] creating ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info
+[0.913s] writing ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/dependency_links.txt
+[0.917s] writing entry points to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/entry_points.txt
+[0.917s] writing requirements to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/requires.txt
+[0.917s] writing top-level names to ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/top_level.txt
+[0.918s] writing manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'
+[0.918s] reading manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../../build/my_sphere_pkg/my_sphere_pkg.egg-info/SOURCES.txt'
+[0.920s] running build
+[0.921s] running build_py
+[0.921s] creating /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build
+[0.921s] creating /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib
+[0.921s] creating /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg
+[0.921s] copying my_sphere_pkg/client_node.py -> /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg
+[0.921s] copying my_sphere_pkg/coordinate_node.py -> /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg
+[0.921s] copying my_sphere_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg
+[0.921s] running install
+[0.923s] running install_lib
+[0.924s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg
+[0.924s] copying /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/client_node.py -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg
+[0.924s] copying /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/coordinate_node.py -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg
+[0.924s] copying /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build/lib/my_sphere_pkg/__init__.py -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg
+[0.924s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg/client_node.py to client_node.cpython-310.pyc
+[0.925s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg/coordinate_node.py to coordinate_node.cpython-310.pyc
+[0.925s] byte-compiling /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg/__init__.py to __init__.cpython-310.pyc
+[0.925s] running install_data
+[0.925s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/ament_index
+[0.925s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/ament_index/resource_index
+[0.925s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/ament_index/resource_index/packages
+[0.925s] copying resource/my_sphere_pkg -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/ament_index/resource_index/packages
+[0.925s] copying package.xml -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/launch
+[0.926s] copying launch/my_sphere.launch.py -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/launch
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/worlds
+[0.926s] copying worlds/my_empty_world.world -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/worlds
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/rviz
+[0.926s] copying rviz/my_rviz_conf.rviz -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/rviz
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf
+[0.926s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal
+[0.926s] copying models/sdf/sphere_goal/model.sdf -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal
+[0.927s] copying models/sdf/sphere_goal/model.config -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/sdf/sphere_goal
+[0.927s] creating /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/urdf
+[0.927s] copying models/urdf/sphere.urdf -> /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/share/my_sphere_pkg/models/urdf
+[0.927s] running install_egg_info
+[0.929s] Copying ../../../build/my_sphere_pkg/my_sphere_pkg.egg-info to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages/my_sphere_pkg-0.0.0-py3.10.egg-info
+[0.931s] running install_scripts
+[0.943s] Installing my_client_node script to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/my_sphere_pkg
+[0.943s] Installing reader_mark_node script to /home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/my_sphere_pkg
+[0.943s] writing list of installed files to '/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log'
+[0.994s] Invoked command in '/home/kabirpuri/fuelbot_ws/src/robotic_arm_environment/my_sphere_pkg' returned '0': PYTHONPATH=/home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabirpuri/fuelbot_ws/install/my_sphere_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_sphere_pkg build --build-base /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/build install --record /home/kabirpuri/fuelbot_ws/build/my_sphere_pkg/install.log --single-version-externally-managed install_data
