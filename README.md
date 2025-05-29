@@ -8,3 +8,10 @@ This repository contains Git submodules. To clone it properly and ensure all sub
 
 ```bash
 git clone --recurse-submodules git@github.com:kaRpuri/fillbot.git
+```
+
+### 🔑 Clone Using HTTPS
+
+```bash
+git clone --recurse-submodules https://github.com/kaRpuri/fillbot.git
+```
